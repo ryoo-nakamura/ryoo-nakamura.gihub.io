@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Academic # Website name
+title: Ryo Nakamura's Portfolio # Website name
 baseurl: '' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
@@ -11,8 +11,8 @@ copyright: '' # Footer text, e.g. '© {year} Me'
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
+defaultContentLanguage: "en" 
+hasCJKLanguage: true
 defaultContentLanguageInSubdir: false
 removePathAccents: true
 
@@ -38,6 +38,7 @@ footnotereturnlinkcontents: <sup>^</sup>
 ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 permalinks:
   event: '/talk/:slug/'
+  authors: '/author/:slug/'
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
@@ -74,3 +75,4 @@ related:
       weight: 100
     - name: categories
       weight: 70
+       

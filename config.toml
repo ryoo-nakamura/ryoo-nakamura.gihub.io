@@ -1,0 +1,74 @@
+# baseURL = "http://example.org/"
+baseURL = "ryoo-nakamura/portfolio_ryo/docs/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "starter-academic"
+# publishDir = "docs"
+canonifyurls = true
+
+name = "Academic"
+license = "MIT"
+licenselink = "https://github.com/wowchemy/starter-academic/blob/master/LICENSE.md"
+description = "Use the website builder to easily build your site with 50+ widgets and deploy with one click! Fully customize your site with themes, plugins, and language packs."
+homepage = "https://wowchemy.com/templates/"
+min_version = "0.81"
+tags = ["widgets",
+        "resume",
+        "portfolio",
+        "responsive",
+        "clean",
+        "personal",
+        "company",
+        "blog",
+        "minimal",
+        "light",
+        "dark",
+        "multilingual",
+        "documentation",
+        "landing page",
+        "projects",
+        "single page",
+        "contact form",
+        "mobile",
+        "gallery",
+        "search",
+        "presentation",
+        "simple",
+        "minimalist",
+        "starter",
+        "modern",
+        "one page",
+        "customizable",
+        "technical",
+        "product",
+        "slide"
+        ]
+features = ["page builder", "widgets", "themes", "search", "research publication system", "filterable portfolio",
+            "blog", "create courses", "talks", "events", "slides", "gallery", "contact form"]
+
+[author]
+  name = "George Cushen"
+  homepage = "https://georgecushen.com"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
+
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    allow = ['^(dart-)?sass(-embedded)?$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^((HTTPS?|NO)_PROXY|PATH(EXT)?|APPDATA|TE?MP|TERM|GO\w+|(XDG_CONFIG_)?HOME|USERPROFILE|SSH_AUTH_SOCK|DISPLAY|LANG)$']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^WC_POST_CSS$']
+
+  [security.goTemplates]
+    AllowActionJSTmpl = false
+
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']
