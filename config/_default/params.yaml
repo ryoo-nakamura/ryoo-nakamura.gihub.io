@@ -12,48 +12,48 @@ font_size: L
 
 # SEO
 
-site_type: Person, Portfolio
-local_business_type: 'machine learning resercher, deta scientist'
-org_name: 'Fukuoka University, AIST'
+site_type: Person
+local_business_type: ''
+org_name: ''
 description: ''
-twitter: 'https://twitter.com/ryo123456789098'
+twitter: ''
 
 # Contact (edit or remove options as required)
 
-email: sd210501@cis.fukuoka-u.ac.jp
-phone: xxx-xxxx-xxxx
+email: test@example.org
+phone: 888 888 88 88
 address:
-#   street: 450 Serra Mall
-  city: 茨城県
-  region: つくば市,
-  postcode: 産業総合技術研究所　情報棟
-#   country: United States
-  country_code: JP
+  street: 450 Serra Mall
+  city: Stanford
+  region: CA
+  postcode: '94305'
+  country: United States
+  country_code: US
 coordinates:
-  latitude: '36.062366'
-  longitude: '140.1348061'
-# directions: 産業総合技術研究所　情報棟
-# office_hours:
-#   - 'Monday 10:00 to 13:00'
-#   - 'Wednesday 09:00 to 10:00'
-# appointment_url: 'https://calendly.com'
+  latitude: '37.4275'
+  longitude: '-122.1697'
+directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
+office_hours:
+  - 'Monday 10:00 to 13:00'
+  - 'Wednesday 09:00 to 10:00'
+appointment_url: 'https://calendly.com'
 contact_links:
   - icon: twitter
     icon_pack: fab
-    name: Follow me on Twitter
-    link: 'https://twitter.com/ryo123456789098'
-#   - icon: skype
-#     icon_pack: fab
-#     name: Skype Me
-#     link: 'skype:echo123?call'
-#   - icon: keybase
-#     icon_pack: fab
-#     name: Chat on Keybase
-#     link: 'https://keybase.io/'
-#   - icon: comments
-#     icon_pack: fas
-#     name: Discuss on Forum
-#     link: 'https://discourse.gohugo.io'
+    name: DM Me
+    link: 'https://twitter.com/Twitter'
+  - icon: skype
+    icon_pack: fab
+    name: Skype Me
+    link: 'skype:echo123?call'
+  - icon: keybase
+    icon_pack: fab
+    name: Chat on Keybase
+    link: 'https://keybase.io/'
+  - icon: comments
+    icon_pack: fas
+    name: Discuss on Forum
+    link: 'https://discourse.gohugo.io'
 
 # Site header
 
@@ -77,9 +77,7 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
-  - python
-  - latex
-math: true
+math: false
 diagram: false
 privacy_pack: false
 edit_page:
@@ -122,7 +120,6 @@ projects:
 breadcrumb:
   page_types:
     book: true
-    
 comments:
   provider: ''
   commentable:
@@ -135,8 +132,7 @@ comments:
     shortname: ''
     show_count: true
   commento:
-    url: 'https://formspree.io/f/mleagape'
-    
+    url: ''
 search:
   provider: wowchemy
   algolia:
@@ -144,9 +140,8 @@ search:
     api_key: ''
     index_name: ''
     show_logo: false
-    
 map:
-  provider: mapnik
+  provider: ''
   api_key: ''
   zoom: 15
 marketing:
@@ -160,4 +155,4 @@ cms:
   local_backend: false
 icon:
   pack:
-    ai: false
+    ai: true

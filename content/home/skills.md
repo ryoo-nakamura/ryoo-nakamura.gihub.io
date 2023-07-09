@@ -3,15 +3,12 @@
 # Documentation: https://wowchemy.com/docs/page-builder/
 widget: featurette
 
-# Activate this widget? true/false
-active: false
-
 # This file represents a page section.
-headless: false
+headless: true
 
 # Order that this section appears on the page.
 weight: 30
-#表示される場所
+
 title: Skills
 subtitle:
 
@@ -31,23 +28,18 @@ feature:
   icon: camera-retro
   icon_pack: fas
   name: Photography
-  
-#- description: 10%
-#  icon: Python
-#  icon_pack: fas
-#  name: Python
 
 # Uncomment to use emoji icons.
-#- icon = ":smile:"
-#  icon_pack = "emoji"
-#  name = "Emojiness"
-#  description = "100%"  
+#- icon: ":smile:"
+#  icon_pack: "emoji"
+#  name: "Emojiness"
+#  description: "100%"  
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
 # Reference the SVG icon name (without `.svg` extension) in the `icon` field.
-#- icon = "your-custom-icon-name"
-#  icon_pack = "custom"
-#  name = "Surfing"
-#  description = "90%"
+#- icon: "your-custom-icon-name"
+#  icon_pack: "custom"
+#  name: "Surfing"
+#  description: "90%"
 ---
